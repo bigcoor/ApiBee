@@ -1,15 +1,16 @@
-ApiBee
-======
+## ApiBee
 
 Make Express routes grouped by some keys.
 
 
 ## Basic Usage
-Express route file `routes.js`
+cd `your project` && npm install apibee --save-dev
+
+Example for `routes.js`
 ```javascript
 'use strict';
 
-var bee        = require('apibee');
+var bee = require('apibee');
 
 module.exports = function(router) {
   var api = new bee(router)
@@ -22,7 +23,7 @@ module.exports = function(router) {
       //do stuff  
    })
 
-  api.group('User', function(api) {
+  api.group('User CRUD', function(api) {
     api.get('/', function(req, res) {
       //do stuff
     });
