@@ -4,7 +4,7 @@ Make Express routes grouped by some keys.
 
 
 ## Basic Usage
-cd `your project` && npm install apibee --save-dev
+cd into `your project` && npm install apibee --save-dev
 
 Example for `routes.js`
 ```javascript
@@ -32,3 +32,6 @@ module.exports = function(router) {
    })
   }
 };
+
+## License
+[GPL](http://www.gnu.org/licenses/gpl-2.0.html)
