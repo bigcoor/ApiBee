@@ -16,20 +16,21 @@ module.exports = function(router) {
   var api = new bee(router)
 
   api.group('Index', function(api) {
-    api.get('/', function(req, res) {
+    api.get('/read', function(req, res) {
       //do stuff
     });
-    api.post('/', function(req, res) {
+    api.post('/update', function(req, res) {
       //do stuff  
-   })
+    })
+  }
 
   api.group('User CRUD', function(api) {
-    api.get('/', function(req, res) {
+    api.get('/read', function(req, res) {
       //do stuff
     });
-    api.post('/', function(req, res) {
+    api.post('/update', function(req, res) {
       //do stuff  
-   })
+    })
   }
 };
 ```
