@@ -1,0 +1,26 @@
+{
+  "name": "ApiBee",
+  "version": "0.0.1",
+  "description": "Make Express routes grouped by some keys.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bigcoor/ApiBee.git"
+  },
+  "keywords": [
+    "Group",
+    "Apis"
+  ],
+  "author": "meepo Xu",
+  "license": "GPL V2",
+  "bugs": {
+    "url": "https://github.com/bigcoor/ApiBee/issues"
+  },
+  "homepage": "https://github.com/bigcoor/ApiBee",
+  "devDependencies": {
+    "underscore": "^1.7.0"
+  }
+}
